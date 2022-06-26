@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: white">AWEB-U3-P2</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: white">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgba(255,255,255,0.58)">Unidad 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: rgba(255,255,255,0.58)">Unidad 2</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: rgba(255,255,255,0.58)">
+                        Unidad 3
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Repaso Unidad 2</a></li>
+                        <li><a class="dropdown-item" href="#">Serviet</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">JSP</a></li>
+                        <li><a class="dropdown-item" href="#">Conexión BD</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" style="color: rgba(255,255,255,0.31)">Extraordinario</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="row row-cols-1 row-cols-md-3 g-4" style="width: auto; margin-top: -1%; margin-bottom: 1%">
+    <div class="col">
+        <div class="card h-100" style="margin-right: 60px; margin-left: 80px">
+            <img src="https://6.viki.io/image/7d1e349cf91c466a8647b64479cbcfcf/dummy.jpeg?s=900x600&e=t" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text" >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-auto mr-auto">
+        <div class="card h-100" style="margin-right: 60px; margin-left: 60px">
+            <img src="https://www.nacionrex.com/__export/1604678545433/sites/debate/img/2020/11/06/twice-chaeyoung-novio-rumores-jyp-comunicado_1_crop1604677156879.jpg_242310155.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100" style="margin-right: 80px; margin-left: 60px">
+            <img src="https://www.allkpop.com/upload/2021/10/content/191638/1634675916-untitled-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-sm">
+    <h1>Personas registradas</h1>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Bernardo</td>
+            <td>Huicochea</td>
+            <td>50</td>
+            <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jazmin</td>
+            <td>Rogel</td>
+            <td>38</td>
+            <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Maximiliano</td>
+            <td>Carsi</td>
+            <td>24</td>
+            <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>Araceli</td>
+            <td>Jacobo</td>
+            <td>40</td>
+            <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>Francisco</td>
+            <td>Garduño</td>
+            <td>27</td>
+            <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
